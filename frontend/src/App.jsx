@@ -37,7 +37,8 @@ const COLORSLIST = {
       opacity: 1,
       finish: "glossy",
       stock: true,
-      information: "Improved PLA with higher strength and toughness, still not very heat-resistant.",
+      information:
+        "Improved PLA with higher strength and toughness, still not very heat-resistant.",
     },
     "Off-White": {
       color: "#e4e6ea",
@@ -46,7 +47,8 @@ const COLORSLIST = {
       opacity: 1,
       finish: "glossy",
       stock: true,
-      information: "Improved PLA with higher strength and toughness, still not very heat-resistant.",
+      information:
+        "Improved PLA with higher strength and toughness, still not very heat-resistant.",
     },
     Oak: {
       color: "#bea98b",
@@ -55,7 +57,8 @@ const COLORSLIST = {
       opacity: 1,
       finish: "glossy",
       stock: true,
-      information: "Improved PLA with higher strength and toughness, still not very heat-resistant.",
+      information:
+        "Improved PLA with higher strength and toughness, still not very heat-resistant.",
     },
     "Sunny Orange": {
       color: "#ff8635",
@@ -64,7 +67,8 @@ const COLORSLIST = {
       opacity: 1,
       finish: "glossy",
       stock: true,
-      information: "Improved PLA with higher strength and toughness, still not very heat-resistant.",
+      information:
+        "Improved PLA with higher strength and toughness, still not very heat-resistant.",
     },
     Cyan: {
       color: "#2aa0dc",
@@ -73,7 +77,8 @@ const COLORSLIST = {
       opacity: 1,
       finish: "glossy",
       stock: true,
-      information: "Improved PLA with higher strength and toughness, still not very heat-resistant.",
+      information:
+        "Improved PLA with higher strength and toughness, still not very heat-resistant.",
     },
   },
   "PLA+ Silk": {
@@ -84,7 +89,8 @@ const COLORSLIST = {
       opacity: 1,
       finish: "glossy",
       stock: true,
-      information: "Silky smooth, slightly metallic finish. Good for decorative prints, not as strong as standard PLA+.",
+      information:
+        "Silky smooth, slightly metallic finish. Good for decorative prints, not as strong as standard PLA+.",
     },
     Gold: {
       color: "#f8cc36",
@@ -93,7 +99,8 @@ const COLORSLIST = {
       opacity: 1,
       finish: "glossy",
       stock: true,
-      information: "Silky smooth, slightly metallic finish. Best for display pieces and artistic projects.",
+      information:
+        "Silky smooth, slightly metallic finish. Best for display pieces and artistic projects.",
     },
     "Red-Yellow-Blue": {
       color: "#2a1e5b",
@@ -102,7 +109,8 @@ const COLORSLIST = {
       opacity: 1,
       finish: "glossy",
       stock: true,
-      information: "Color-shifting silk filament. Metallic look, colors will vary when printed. More for visuals than strength.",
+      information:
+        "Color-shifting silk filament. Metallic look, colors will vary when printed. More for visuals than strength.",
     },
   },
   // "PLA+": {
@@ -124,7 +132,8 @@ const COLORSLIST = {
       opacity: 1,
       finish: "satin",
       stock: true,
-      information: "Flexible and impact-resistant. Great for phone cases, seals, or parts needing bendability.",
+      information:
+        "Flexible and impact-resistant. Great for phone cases, seals, or parts needing bendability.",
     },
     Gray: {
       color: "#77767d",
@@ -133,7 +142,8 @@ const COLORSLIST = {
       opacity: 1,
       finish: "satin",
       stock: true,
-      information: "Flexible and durable. Useful for parts that need to bend without breaking.",
+      information:
+        "Flexible and durable. Useful for parts that need to bend without breaking.",
     },
   },
   "PLA Firefly": {
@@ -144,7 +154,8 @@ const COLORSLIST = {
       opacity: 0.8,
       finish: "glossy",
       stock: true,
-      information: "PLA that glows under UV light. Similar strength to normal PLA, mainly for decorative prints.",
+      information:
+        "PLA that glows under UV light. Similar strength to normal PLA, mainly for decorative prints.",
     },
   },
   "PLA Glow in the dark": {
@@ -155,7 +166,8 @@ const COLORSLIST = {
       opacity: 1,
       finish: "glossy",
       stock: true,
-      information: "Glows in the dark after light exposure. Slightly more brittle than regular PLA.",
+      information:
+        "Glows in the dark after light exposure. Slightly more brittle than regular PLA.",
     },
     Green: {
       color: "#37dc6e",
@@ -164,7 +176,8 @@ const COLORSLIST = {
       opacity: 1,
       finish: "glossy",
       stock: false,
-      information: "Glows in the dark. Fun for display prints, not ideal for functional parts.",
+      information:
+        "Glows in the dark. Fun for display prints, not ideal for functional parts.",
     },
   },
   "PLA Meta": {
@@ -175,7 +188,8 @@ const COLORSLIST = {
       opacity: 1,
       finish: "satin",
       stock: true,
-      information: "Special PLA blend with matte finish. Hides layer lines well, but slightly weaker than PLA+.",
+      information:
+        "Special PLA blend with matte finish. Hides layer lines well, but slightly weaker than PLA+.",
     },
   },
   PLA: {
@@ -186,7 +200,8 @@ const COLORSLIST = {
       opacity: 1,
       finish: "glossy",
       stock: true,
-      information: "Easy to print, good detail. Decently strong but brittle, weak to UV and heat.",
+      information:
+        "Easy to print, good detail. Decently strong but brittle, weak to UV and heat.",
     },
   },
   PETG: {
@@ -197,7 +212,8 @@ const COLORSLIST = {
       opacity: 1,
       finish: "glossy",
       stock: true,
-      information: "Strong and slightly flexible. Good chemical and weather resistance, harder to print than PLA.",
+      information:
+        "Strong and slightly flexible. Good chemical and weather resistance, harder to print than PLA.",
     },
   },
   // ABS: {
@@ -219,7 +235,8 @@ const COLORSLIST = {
       opacity: 1,
       finish: "glossy",
       stock: true,
-      information: "Similar to ABS but with strong UV resistance. Great for outdoor parts.",
+      information:
+        "Similar to ABS but with strong UV resistance. Great for outdoor parts.",
     },
   },
 };
@@ -246,7 +263,9 @@ function App() {
   const [material, setMaterial] = useState("PLA");
   const [selectedcolor, setSelectedcolor] = useState("Green");
   const [selectedcolor2, setSelectedcolor2] = useState("Green");
-  const [informationstuff, setInformationstuff] = useState("Easy to print, good detail. Decently strong but brittle, weak to UV and heat.");
+  const [informationstuff, setInformationstuff] = useState(
+    "Easy to print, good detail. Decently strong but brittle, weak to UV and heat."
+  );
   const [instock, setInstock] = useState(true);
   const [infill, setInfill] = useState(15);
   const [layerHeight, setLayerHeight] = useState(0.2);
@@ -513,8 +532,8 @@ function App() {
     setMaterial(e.target.value);
     const firstValue = Object.values(COLORSLIST[e.target.value])[0];
     setSelectedcolor(firstValue);
-    setInformationstuff(firstValue.information)
-    setInstock(firstValue.stock)
+    setInformationstuff(firstValue.information);
+    setInstock(firstValue.stock);
     if (modelData) {
       const geom = fileType === "stl" ? modelData : modelData.mergedGeometry;
       if (geom) calculateEstimate(geom, scale);
@@ -524,8 +543,8 @@ function App() {
   const handleColorChange = (e) => {
     setSelectedcolor2(e.target.value);
     setSelectedcolor(COLORSLIST[material][e.target.value]);
-    setInformationstuff(COLORSLIST[material][e.target.value].information)
-    setInstock(COLORSLIST[material][e.target.value].stock)
+    setInformationstuff(COLORSLIST[material][e.target.value].information);
+    setInstock(COLORSLIST[material][e.target.value].stock);
   };
 
   const handleInfillChange = (e) => {
@@ -608,6 +627,32 @@ function App() {
           onChange={handleUpload}
           disabled={loading}
         />
+
+        <div style={{ marginTop: "1rem" }}>
+          <label>You can find models here:</label>
+
+          <div>
+            <a
+              href="https://makerworld.com/en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Makerworld
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.printables.com/model"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Printables
+            </a>
+          </div>
+          <div>
+            <label>Download the .STL or .3MF file and upload here</label>
+          </div>
+        </div>
 
         {loading && <p>Loading model...</p>}
 
