@@ -1,0 +1,12 @@
+{
+  "version": 4,
+  "name": "Standard 0.20mm",
+  "overrides": {
+    "layer_height": { "default_value": 0.20 },
+    "layer_height_0": { "default_value": 0.28 },
+    "speed_print": { "default_value": 150 },
+    "speed_infill": { "default_value": 150 },
+    "speed_wall": { "default_value": 80 },
+    "infill_sparse_density": { "default_value": 15 }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": 4,
+  "name": "PLA",
+  "overrides": {
+    "material_print_temperature": { "default_value": 210 },
+    "material_bed_temperature": { "default_value": 60 },
+    "material_diameter": { "default_value": 1.75 },
+    "material_density": { "default_value": 1.24 },
+    "cool_fan_enabled": { "default_value": true }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "version": 4,
+  "name": "Bambu P1S PLA Mapped Profile",
+  "inherits": "fdmprinter.def.json",
+  "metadata": {
+    "visible": true,
+    "author": "Custom",
+    "manufacturer": "Bambu Lab",
+    "file_formats": "stl,3mf,obj"
+  },
+  "overrides": {
+    "machine_name": { "default_value": "Bambu P1S" },
+    "machine_width": { "default_value": 256 },
+    "machine_depth": { "default_value": 256 },
+    "machine_height": { "default_value": 256 },
+    "machine_heated_bed": { "default_value": true },
+    "machine_nozzle_size": { "default_value": 0.4 },
+    "machine_extruder_count": { "default_value": 1 },
+
+    "layer_height": { "default_value": 0.2 },      
+    "layer_height_0": { "default_value": 0.28 },  
+
+    "material_print_temperature": { "default_value": 210 },  
+    "material_bed_temperature": { "default_value": 60 },
+    "material_diameter": { "default_value": 1.75 },
+    "material_density": { "default_value": 1.24 },
+
+    "speed_print": { "default_value": 150 },        
+    "speed_layer_0": { "default_value": 40 },
+    "speed_wall": { "default_value": 80 },
+    "speed_wall_0": { "default_value": 60 },        
+    "speed_wall_x": { "default_value": 100 },
+    "speed_topbottom": { "default_value": 60 },
+    "speed_infill": { "default_value": 150 },
+
+    "cool_fan_enabled": { "default_value": true },
+    "cool_fan_speed": { "default_value": 100 },
+
+    "wall_thickness": { "default_value": 1.2 },
+    "wall_line_count": { "default_value": 3 },
+    "top_thickness": { "default_value": 1.2 },
+    "bottom_thickness": { "default_value": 1.2 },
+
+    "infill_sparse_density": { "default_value": 15 }, 
+    "infill_pattern": { "default_value": "grid" },
+
+    "retraction_enable": { "default_value": true },
+    "retraction_amount": { "default_value": 0.8 },
+    "retraction_speed": { "default_value": 40 }
+  }
+}
