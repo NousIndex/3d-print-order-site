@@ -199,7 +199,7 @@ const COLORSLIST = {
       color3: "#4fb84e",
       opacity: 1,
       finish: "glossy",
-      stock: true,
+      stock: false,
       information:
         "Easy to print, good detail. Decently strong but brittle, weak to UV and heat.",
     },
