@@ -36,7 +36,7 @@ const COLORSLIST = {
       color3: "#2e2e2e",
       opacity: 1,
       finish: "glossy",
-      stock: true,
+      stock: false,
       information:
         "Improved PLA with higher strength and toughness, still not very heat-resistant.",
     },
